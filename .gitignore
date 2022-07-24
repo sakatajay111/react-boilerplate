@@ -5,7 +5,7 @@ dist
 logs
 *.log
 npm-debug.log*
-
+.vscode
 # Coverage directory used by tools like istanbul
 coverage
 coverage.lcov
