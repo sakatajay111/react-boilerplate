@@ -1,0 +1,24 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 1px solid black;
+    height: 100%; 
+    .offer-wrapper {
+        padding: 1rem;
+        :first-child {
+            margin-bottom: 5%;
+        }
+    }
+    .divider {
+        border: 0.5px solid black;
+    }
+    .input-search {
+        padding: 5% 5%;
+        input {
+            padding: 0.5rem;
+            margin-bottom: 5%;
+        }
+    }
+}
+    
