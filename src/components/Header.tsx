@@ -1,3 +1,4 @@
+import { Button } from '@mui/material'
 import React from 'react'
 import './Header.scss'
 
@@ -7,7 +8,7 @@ const Header = () => {
       <section>
         <header>
           <div className='container'>
-            Header
+            <Button variant='contained'>Hello World</Button>
           </div>
         </header>
       </section>

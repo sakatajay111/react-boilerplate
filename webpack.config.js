@@ -55,6 +55,7 @@ module.exports = {
     watchOptions: {
       aggregateTimeout: 500, // delay before reloading
       poll: true // enable polling since fsevents are not supported in docker
-    }
+    },
+    historyApiFallback: true
   }
 }

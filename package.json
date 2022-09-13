@@ -33,9 +33,14 @@
     "project": "./tsconfig.json"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.3",
+    "@mui/material": "^5.10.5",
     "node-sass": "6.0.1",
     "react": "17.0.2",
     "react-dom": "17.0.2",
+    "react-router-dom": "^6.3.0",
     "style-loader": "^3.1.0"
   }
 }
