@@ -4,7 +4,7 @@
   "description": "React typescript boilerplate",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --port 3000",
+    "start": "WATCHPACK_POLLING=true webpack serve --port 3000",
     "build": "NODE_ENV=development webpack",
     "test": "jest"
   },

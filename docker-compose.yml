@@ -1,0 +1,15 @@
+version: "3.9"
+services:
+  ui:
+    build: .
+    image: react-boilerplate
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - ./node_modules:/react-boilerplate/node_modules
+      - ./src:/react-boilerplate/src
+  # networking specifics
+networks:
+  app-network:
+    driver: bridge

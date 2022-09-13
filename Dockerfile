@@ -18,7 +18,7 @@ RUN apk add --update --no-cache bash-completion && \
     bash ./bin/install
 
 # expose standard Node.js port of 3000
-EXPOSE ${PORT}
+# EXPOSE ${PORT}
 
 # NOTE: change CMD to be command to start node app
-ENTRYPOINT ["dumb-init", "--"]
+CMD ["npm", "start"]
