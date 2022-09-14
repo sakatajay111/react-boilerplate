@@ -4,7 +4,6 @@ import ReactDOM from 'react-dom'
 import { Route, Routes, BrowserRouter as Router } from 'react-router-dom'
 
 import './index.scss'
-import SignIn from './pages/SignIn/SignIn'
 import { ScopedCssBaseline } from '@mui/material'
 
 export default class App extends React.Component {
@@ -13,7 +12,6 @@ export default class App extends React.Component {
       <Router>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/login' element={<SignIn />} />
         </Routes>
       </Router>
     )
