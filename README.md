@@ -11,8 +11,9 @@ Dev dependency
    - Webapack server 
 
 How to run application.
+   - npm install
    - npm start
-   - Created dockerfile and docker compose file as well is you are would like to run through it. Steps for running through docker
+   - Created dockerfile and docker compose file as well in case you would like to run through it. Steps for running through docker
       - docker-compose build --no-cache
       - docker-compose up
     
