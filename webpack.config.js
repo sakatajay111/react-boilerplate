@@ -52,10 +52,10 @@ module.exports = {
     port: 3000,
     host: '0.0.0.0', // to accept connections from outside container
     hot: true,
-    watchOptions: {
-      aggregateTimeout: 500, // delay before reloading
-      poll: true // enable polling since fsevents are not supported in docker
-    },
     historyApiFallback: true
+  },
+  watchOptions: {
+    aggregateTimeout: 500, // delay before reloading
+    poll: true // enable polling since fsevents are not supported in docker
   }
 }
