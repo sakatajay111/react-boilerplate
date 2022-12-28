@@ -1,5 +1,5 @@
 # react-boilerplate
-[![Known Vulnerabilities](https://snyk.io/test/github/sakatajay111/react-boilerplate/badge.svg)]
+![Known Vulnerabilities](https://snyk.io/test/github/sakatajay111/react-boilerplate/badge.svg)
  
 
 React typescript boilerplate
