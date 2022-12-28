@@ -1,7 +1,5 @@
 # react-boilerplate
-<a href="https://snyk.io/test/github/sakatajay111/react-boilerplate" />
-![Known Vulnerabilities](https://snyk.io/test/github/sakatajay111/react-boilerplate/badge.svg)(https://snyk.io/test/github/sakatajay111/react-boilerplate)
- 
+![Known Vulnerabilities](https://snyk.io/test/github/sakatajay111/react-boilerplate/badge.svg)
 
 React typescript boilerplate
    - Boilerplate which provides required dependency only instead of loads of stuff which create-react-app uses to creates react app.
