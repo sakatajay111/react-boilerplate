@@ -1,5 +1,8 @@
 # react-boilerplate
 ![Known Vulnerabilities](https://snyk.io/test/github/sakatajay111/react-boilerplate/badge.svg)
+[![Travis](https://img.shields.io/travis/dwyl/goodparts.svg?maxAge=2592000)](https://travis-ci.org/sakatajay111/react-boilerplate)
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/sakatajay111/react-boilerplate "JavaScript The Good Parts")
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/sakatajay111/react-boilerplate/issues)
 
 React typescript boilerplate
    - Boilerplate which provides required dependency only instead of loads of stuff which create-react-app uses to creates react app.
