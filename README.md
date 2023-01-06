@@ -12,7 +12,7 @@ Following packages were used while creating this app.
    - Saas-load - CSS preprocessor
 Dev dependency
    - I'm using standard.js as dev dependency for linting you can change according to your requirement tslint or other.
-   - Webpack server as bundler
+   - Webpack server as bundler.
 
 How to run application.
    -  npm install && npm run build && npm start
